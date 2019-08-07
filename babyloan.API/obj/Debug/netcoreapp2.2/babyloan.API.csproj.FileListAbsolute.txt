@@ -1,0 +1,14 @@
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\bin\Debug\netcoreapp2.2\babyloan.API.deps.json
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\bin\Debug\netcoreapp2.2\babyloan.API.runtimeconfig.json
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\bin\Debug\netcoreapp2.2\babyloan.API.runtimeconfig.dev.json
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\bin\Debug\netcoreapp2.2\babyloan.API.dll
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.csprojAssemblyReference.cache
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.csproj.CoreCompileInputs.cache
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.RazorAssemblyInfo.cache
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.RazorAssemblyInfo.cs
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.AssemblyInfoInputs.cache
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.AssemblyInfo.cs
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.RazorTargetAssemblyInfo.cache
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\bin\Debug\netcoreapp2.2\babyloan.API.pdb
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.dll
+C:\Users\ALEWA\source\repos\babyloan.API\babyloan.API\obj\Debug\netcoreapp2.2\babyloan.API.pdb
