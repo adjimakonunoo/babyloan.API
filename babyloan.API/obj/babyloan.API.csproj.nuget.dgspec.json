@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ALEWA\\source\\repos\\babyloan.API\\babyloan.API\\babyloan.API.csproj": {}
+    "C:\\WorkSpace\\babyloan.API\\babyloan.API\\babyloan.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ALEWA\\source\\repos\\babyloan.API\\babyloan.API\\babyloan.API.csproj": {
+    "C:\\WorkSpace\\babyloan.API\\babyloan.API\\babyloan.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ALEWA\\source\\repos\\babyloan.API\\babyloan.API\\babyloan.API.csproj",
+        "projectUniqueName": "C:\\WorkSpace\\babyloan.API\\babyloan.API\\babyloan.API.csproj",
         "projectName": "babyloan.API",
-        "projectPath": "C:\\Users\\ALEWA\\source\\repos\\babyloan.API\\babyloan.API\\babyloan.API.csproj",
-        "packagesPath": "C:\\Users\\ALEWA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ALEWA\\source\\repos\\babyloan.API\\babyloan.API\\obj\\",
+        "projectPath": "C:\\WorkSpace\\babyloan.API\\babyloan.API\\babyloan.API.csproj",
+        "packagesPath": "C:\\Users\\TempleData\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkSpace\\babyloan.API\\babyloan.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ALEWA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TempleData\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
