@@ -20,8 +20,8 @@ namespace babyloan.API.infrastructure.fineract.commons
         {
 
      
-           httpClient.BaseAddress = new Uri("https://10.10.30.62:443/fineract-provider/api/v1/");
-           //httpClient.BaseAddress = new Uri("https://localhost:8443/fineract-provider/api/v1/");
+           //httpClient.BaseAddress = new Uri("https://10.10.30.62:443/fineract-provider/api/v1/");
+           httpClient.BaseAddress = new Uri("https://localhost:8443/fineract-provider/api/v1/");
             httpClient.DefaultRequestHeaders.Add("Accept", "application/json");
             httpClient.DefaultRequestHeaders.Add("Fineract-Platform-TenantId", "Default");
           

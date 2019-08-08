@@ -5,33 +5,33 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace babyloan.API.infrastructure.fineract.Controller
+namespace babyloan.API.Useradministration.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class loansController : ControllerBase
+    public class passwordpreferencesController : ControllerBase
     {
-        // GET: api/loans
+        // GET: api/passwordpreferences
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET: api/loans/5
-        [HttpGet("{id}", Name = "Get")]
+        // GET: api/passwordpreferences/5
+        [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/loans
+        // POST: api/passwordpreferences
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT: api/loans/5
+        // PUT: api/passwordpreferences/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {

@@ -19,7 +19,7 @@ namespace babyloan.API.infrastructure.fineract.controllers
         }
 
         // GET: api/fineract/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";

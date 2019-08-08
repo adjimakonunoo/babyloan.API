@@ -11,4 +11,37 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Accounting\Accrual\Api\" />
+    <Folder Include="Accounting\Glaccount\Domain\" />
+    <Folder Include="Accounting\Accrual\Exception\" />
+    <Folder Include="Accounting\Accrual\Handler\" />
+    <Folder Include="Accounting\Accrual\Service\" />
+    <Folder Include="Accounting\Closures\" />
+    <Folder Include="Accounting\Glaccount\Api\" />
+    <Folder Include="Accounting\Glaccount\Exception\" />
+    <Folder Include="Accounting\Glaccount\Handler\" />
+    <Folder Include="Accounting\Glaccount\Service\" />
+    <Folder Include="Accounting\Journalentry\" />
+    <Folder Include="Accounting\Common\" />
+    <Folder Include="Accounting\Financialactivityaccount\" />
+    <Folder Include="Accounting\Rule\" />
+    <Folder Include="Accounting\Provisioning\" />
+    <Folder Include="Accounting\Producttoaccount\" />
+    <Folder Include="Batch\" />
+    <Folder Include="Mix\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Scheduledjobs\" />
+    <Folder Include="Spm\" />
+    <Folder Include="Template\" />
+    <Folder Include="Organisation\" />
+    <Folder Include="Portfolio\Domain\" />
+    <Folder Include="Useradministration\Command\" />
+    <Folder Include="Useradministration\Domain\" />
+    <Folder Include="Useradministration\Data\" />
+    <Folder Include="Useradministration\Handler\" />
+    <Folder Include="Useradministration\Exception\" />
+    <Folder Include="Useradministration\Service\" />
+  </ItemGroup>
+
 </Project>
