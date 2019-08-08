@@ -16,12 +16,12 @@ namespace babyloan.API.Accounting.Rule.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountingRuleController : ControllerBase
+    public class accountingruleController : ControllerBase
     {
 
         private readonly FineractClient _fineractClient;
 
-        public AccountingRuleController(FineractClient fineractClient)
+        public accountingruleController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }

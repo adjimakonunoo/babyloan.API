@@ -18,11 +18,11 @@ namespace babyloan.API.Accounting.Provisioning.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProvisioningEntriesController : ControllerBase
+    public class provisioningentriesController : ControllerBase
     {
         private readonly FineractClient _fineractClient;
 
-        public ProvisioningEntriesController(FineractClient fineractClient)
+        public provisioningentriesController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }

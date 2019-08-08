@@ -17,12 +17,12 @@ namespace babyloan.API.Batch.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BatchController : ControllerBase
+    public class batchController : ControllerBase
     {
 
         private readonly FineractClient _fineractClient;
 
-        public BatchController(FineractClient fineractClient)
+        public batchController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }

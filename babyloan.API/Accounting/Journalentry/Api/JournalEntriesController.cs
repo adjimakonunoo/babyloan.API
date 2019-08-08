@@ -19,12 +19,12 @@ namespace babyloan.API.Accounting.Journalentry.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class JournalEntriesController : ControllerBase
+    public class journalentriesController : ControllerBase
     {
 
         private readonly FineractClient _fineractClient;
 
-        public JournalEntriesController(FineractClient fineractClient)
+        public journalentriesController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }

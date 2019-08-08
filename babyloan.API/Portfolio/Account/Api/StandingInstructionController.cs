@@ -17,11 +17,11 @@ namespace babyloan.API.Portfolio.Account.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StandingInstructionController : ControllerBase
+    public class standinginstructionController : ControllerBase
     {
         private readonly FineractClient _fineractClient;
 
-        public StandingInstructionController(FineractClient fineractClient)
+        public standinginstructionController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }

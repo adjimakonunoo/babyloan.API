@@ -17,12 +17,12 @@ namespace babyloan.API.Accounting.Glaccount.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GLAccountsController : ControllerBase
+    public class glaccountsController : ControllerBase
     {
 
         private readonly FineractClient _fineractClient;
 
-        public GLAccountsController(FineractClient fineractClient)
+        public glaccountsController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }

@@ -17,54 +17,36 @@ namespace babyloan.API.Accounting.Closures.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GLClosuresController : ControllerBase
+    public class glclosuresController : ControllerBase
     {
 
         private readonly FineractClient _fineractClient;
 
-        public GLClosuresController(FineractClient fineractClient)
+        public glclosuresController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }
-        // GET: api/GLClosures
+        // GET: api/glclosures
         [HttpGet]
-        public async Task<ActionResult> Get()
+        public IEnumerable<string> Get()
         {
-            var response = await ApiService.ProcessRequest(_fineractClient, Request, "glclosures");
-            string result = await response.Content.ReadAsStringAsync();
-            if (response.StatusCode == HttpStatusCode.OK)
-            {
-                return Ok(JsonConvert.DeserializeObject(result));
-
-            }
-            else if (response.StatusCode == HttpStatusCode.Unauthorized)
-            {
-
-                return Unauthorized(JsonConvert.DeserializeObject(result));
-            }
-            else if (response.StatusCode == HttpStatusCode.BadRequest)
-            {
-
-                return BadRequest(JsonConvert.DeserializeObject(result));
-            }
-            return NotFound(JsonConvert.DeserializeObject("{ \"timestamp\": 1565111721435,\"status\": 404,\"error\": \"Not Found\",\"message\": \"Not Found\",\"path\": \"" + _fineractClient.Client.BaseAddress + "glclosures" + "\"} "));
-
+            return new string[] { "value1", "value2" };
         }
 
-        // GET: api/GLClosures/5
+        // GET: api/glclosures/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }
 
-        // POST: api/GLClosures
+        // POST: api/glclosures
         [HttpPost]
         public void Post([FromBody] string value)
         {
         }
 
-        // PUT: api/GLClosures/5
+        // PUT: api/glclosures/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {

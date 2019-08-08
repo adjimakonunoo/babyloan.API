@@ -24,8 +24,8 @@
     <Folder Include="Accounting\Financialactivityaccount\Domain\" />
     <Folder Include="Accounting\Financialactivityaccount\Exception\" />
     <Folder Include="Accounting\Financialactivityaccount\Handler\" />
-    <Folder Include="Accounting\Financialactivityaccount\Service\" />
     <Folder Include="Accounting\Financialactivityaccount\Serialization\" />
+    <Folder Include="Accounting\Financialactivityaccount\Service\" />
     <Folder Include="Accounting\Glaccount\Domain\" />
     <Folder Include="Accounting\Accrual\Exception\" />
     <Folder Include="Accounting\Accrual\Handler\" />
@@ -150,6 +150,7 @@
     <Folder Include="Portfolio\Client\Domian\" />
     <Folder Include="Portfolio\Client\Exception\" />
     <Folder Include="Portfolio\Client\Handler\" />
+    <Folder Include="Portfolio\Client\Serialization\" />
     <Folder Include="Portfolio\Client\Service\" />
     <Folder Include="Portfolio\Collateral\Api\" />
     <Folder Include="Portfolio\Collateral\Data\" />

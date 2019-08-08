@@ -18,12 +18,12 @@ namespace babyloan.API.Mix.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class MixTaxonomyController : ControllerBase
+    public class mixtaxonomyController : ControllerBase
     {
 
         private readonly FineractClient _fineractClient;
 
-        public MixTaxonomyController(FineractClient fineractClient)
+        public mixtaxonomyController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }

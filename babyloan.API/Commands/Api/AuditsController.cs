@@ -17,12 +17,12 @@ namespace babyloan.API.Commands.Api
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuditsController : ControllerBase
+    public class auditsController : ControllerBase
     {
 
         private readonly FineractClient _fineractClient;
 
-        public AuditsController(FineractClient fineractClient)
+        public auditsController(FineractClient fineractClient)
         {
             _fineractClient = fineractClient;
         }
